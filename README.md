@@ -10,3 +10,23 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+<!---Redux--->
+<!--  상태 관리 라이브러리, 중앙 집중식 상태관리 패턴 구현 -->
+1. Redux 설치
+npm install @reduxjs/toolkit react-redux
+
+
+2. Redux Store 생성 
+경로 예시: src/store/store,js
+
+3. Slices 생성
+경로 예시: src/store/slices/**
+
+4. 생성한 Slices를 Store에 추가
+
+5. main.jsx에 React Redux <Provider> (추가 StrictMode를 제외한 최상위 컴포넌트에 추가 할 것)
+
+6. 사용

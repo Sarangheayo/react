@@ -24,6 +24,7 @@ function App() {
   return (
     <>
       <Header></Header> 
+      
       <main>
           <div>
             <Link to={'/'}>상품 리스트</Link>
@@ -35,6 +36,7 @@ function App() {
           {/* { tapFlg && <TapUi></TapUi> }
          { prodFlg && <ProductList></ProductList> } */} 
       </main>
+
       <Footer></Footer>
     </>
   );
