@@ -30,3 +30,14 @@ npm install @reduxjs/toolkit react-redux
 5. main.jsx에 React Redux <Provider> (추가 StrictMode를 제외한 최상위 컴포넌트에 추가 할 것)
 
 6. 사용
+
+
+<!---Redux Thunk -->
+
+1. Redux Thunk 설치
+npm install redux-thunk
+
+2. Redux Thunk file 생성
+src/store/thunks/**
+
+3. 해당 Slice에 'extraReducers' 추가
